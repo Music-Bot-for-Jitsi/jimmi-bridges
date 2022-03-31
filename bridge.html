@@ -6,6 +6,7 @@
 <script>
     let api; // The jitsi api object
     const audio = document.getElementById('audio'); // the audio source object
+    audio.crossOrigin = "anonymous";
     let gainNode;
 
     /**
